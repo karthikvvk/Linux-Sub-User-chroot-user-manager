@@ -6,7 +6,7 @@ It includes all the bindings (permissions to bring the FS alive from disk to RAM
 
 Chroot-User is not a VM, hence it does **not** provide network/hardware level isolation, but it does provide **process-level isolation**.
 
----
+
 
 # 2. **Advantages**
 
@@ -15,7 +15,7 @@ Chroot-User is not a VM, hence it does **not** provide network/hardware level is
 * Works on **any** Linux distro and **any** architecture.
 * Smaller and easy to re-install.
 
----
+
 
 # 3. **Disadvantages**
 
@@ -24,7 +24,7 @@ Chroot-User is not a VM, hence it does **not** provide network/hardware level is
 * **No `.yaml` config for environment setup.** *Edit the `"create mini arch.sh"` directly to configure the chroot user.*
 * Unsafe if `run "rm -rf /"`
 
----
+
 
 # 4. **Steps to Install**
 
@@ -43,7 +43,7 @@ Chroot-User is not a VM, hence it does **not** provide network/hardware level is
 **V. Enter name for Mini-user (optional but safer):**
 `miniuser`
 
----
+
 
 # 5. **Steps to Uninstall**
 
@@ -53,7 +53,7 @@ Chroot-User is not a VM, hence it does **not** provide network/hardware level is
 **II. Remove Chroot FS:**
 `rm -rf <Chroot-user-path>`
 
----
+
 
 # 6. **Things to Note**
 
